@@ -1,0 +1,54 @@
+/* DetailsPage.css */
+
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container for the DetailsPage */
+  .details-page-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  .details-page-container h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Paragraph styling */
+  .details-page-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .details-page-container strong {
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .loading-message {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  

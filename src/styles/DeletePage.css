@@ -1,0 +1,79 @@
+/* DeletePage.css */
+
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container for the DeletePage */
+  .delete-page-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  .delete-page-container h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Paragraph styling */
+  .delete-page-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .delete-page-container strong {
+    font-weight: bold;
+  }
+  
+  /* Button styling */
+  .delete-button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  
+  .cancel-button {
+    background-color: #5bc0de;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover,
+  .cancel-button:hover {
+    opacity: 0.8;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .loading-message {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
